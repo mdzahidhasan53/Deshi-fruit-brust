@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deshi fruit brust</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <!-- link daisy ui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -37,10 +38,18 @@
           <a class="normal-case text-3xl lg:text-4xl lg:text-white font-medium lg:font-bold">Deshi Fruit Burst</a>
         </div>
         <div class="navbar-end absolute lg:static invisible lg:visible">
-          <button class="btn btn-wide flex flex-row justify-between rounded-[50px] normal-case bg-white">Search here
+          <!-- <button class="btn btn-wide flex flex-row justify-between rounded-[50px] normal-case bg-white">Search here
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
             
-          </button>
+          </button> -->
+          <div class="form-control w-[256px]">
+            <div class=" flex justify-between relative">
+              <input class="btn btn-wide bg-white rounded-[50px] text-left normal-case" type="text" placeholder="Search here..."/>
+              <button class="-ml-8 pr-4">
+                <svg  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+              </button>
+            </div>
+          </div>
         </div>
         <!-- dropdown for mobile -->
         <div class="navbar-end lg:absolute">
@@ -446,7 +455,7 @@
             <div class=" mb-10 flex flex-col lg:flex-row lg:items-center space-x-6 space-y-6 ">
               <i class="fa-solid fa-user-group fa-2xl flex justify-center"></i>
               <div class="text-center lg:text-start">
-                <h3 class="text-2xl font-extrabold">Dedicated Team</h3>
+                <h3  class="text-2xl font-extrabold">Dedicated Team</h3>
                 <span class=" flex justify-center lg:justify-start"><hr class="w-28 my-4 "></span>
                 <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
               </div>
@@ -535,6 +544,7 @@
           <p class="text-[#FFF] font-medium text-xs md:text-base">Copyright © 2023 - All right reserved by DESHI Industries Ltd</p>
         </div>
       </footer>
+      
              
       
 </body>
